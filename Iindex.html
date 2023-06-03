@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Score Tracker</title>
+</head>
+<body>
+    <h1>Numbers table</h1>
+    <form id="scoreForm">
+        <label for="name">Name:</label>
+        <input type="text" class="inputs" id="name" required><br><br>
+        
+        <label for="fatherName">Father's Name:</label>
+        <input type="text" class="inputs" id="fatherName" required><br><br>
+        
+        <label for="urdu">Urdu Numbers:</label>
+        <input type="number" class="inputs" id="urdu" required><br><br>
+        
+        <label for="maths">Maths Numbers:</label>
+        <input type="number" class="inputs" id="maths" required><br><br>
+        
+        <label for="english">English Numbers:</label>
+        <input type="number" class="inputs" id="english" required><br><br>
+        
+        <label for="islamyat">Islamyat Numbers:</label>
+        <input type="number" class="inputs" id="islamyat" required><br><br>
+        
+        <input type="submit" value="Add Score">
+    </form>
+    <br>
+    <table id="scoreTable">
+        <tr>
+            <th>Name</th>
+            <th>Father's Name</th>
+            <th>Urdu Numbers</th>
+            <th>Maths Numbers</th>
+            <th>English Numbers</th>
+            <th>Islamyat Numbers</th>
+            <th>Total Numbers</th>
+            <th>Percentage</th>
+        </tr>
+    </table>
+
+   <script src="script.js"></script>
+</body>
+</html>
